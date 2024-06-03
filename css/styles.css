@@ -45,6 +45,8 @@ main {
   border-radius: 0.5rem;
   margin-top: 10px;
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card:last-of-type {
@@ -124,9 +126,23 @@ footer {
 .navbar {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 3px;
 }
 
 a {
-  font-size: 50px;
+  font-size: 45px;
   color: white;
+  padding-left: auto;
+  padding-right: auto;
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+}
+
+a:first-of-type {
+  font-size: 50px;
+}
+
+a:hover {
+  background-color: #2a254a;
 }
