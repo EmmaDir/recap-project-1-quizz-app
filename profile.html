@@ -12,26 +12,26 @@
     <script src="js/index.js" defer></script>
   </head>
   <body class="body" data-js="body">
-    <header>
-      <h1>Quiz App</h1>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
-    <main class="profile-page" data-js="main">
+    <main class="profile" data-js="main">
         <section class="user">
           <i class="fa fa-fw fa-user"></i>
-          <h2 class="name">User XY</h2>
+          <h2 class="user__name">User XY</h2>
         </section>
         <section class="about-me">
             <h3>About me</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </section>
         <section class="counter">
-            <div><p><i class="fa fa-fw fa-question"></i>X</p></div>
-            <div><p><i class="fa fa-fw fa-bookmark"></i>Y</p></div>
+            <div><p class="counter__number"><i class="fa fa-fw fa-question"></i>X</p></div>
+            <div><p class="counter__number"><i class="fa fa-fw fa-bookmark"></i>Y</p></div>
         </section>
-        <section class="options">
-            <h3 class="settings">Settings</h3>
-            <div class="dark-mode">
-                <p>Dark Mode</p>
+        <section class="settings">
+            <h3 class="settings__title">Settings</h3>
+            <div class="darkmode">
+                <p class="darkmode__text">Dark Mode</p>
                 <label class="switch">
                   <input type="checkbox" data-js="toggle-button">
                   <span class="slider round"></span>
@@ -39,11 +39,17 @@
             </div>
         </selection>
     </main>
-    <footer>
-      <nav class="navbar">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
-        <a href="bookmarks.html"><i class="fa fa-fw fa-bookmark"></i></a>
-        <a href="profile.html"><i class="fa fa-fw fa-user"></i></a>
+    <footer class="footer">
+      <nav class="footer__navbar">
+        <a href="index.html" class="footer__link"
+          ><i class="fa fa-fw fa-home"></i
+        ></a>
+        <a href="bookmarks.html" class="footer__link"
+          ><i class="fa fa-fw fa-bookmark"></i
+        ></a>
+        <a href="profile.html" class="footer__link"
+          ><i class="fa fa-fw fa-user"></i
+        ></a>
       </nav>
     </footer>
   </body>
