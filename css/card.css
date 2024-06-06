@@ -46,6 +46,7 @@
   margin-right: auto;
   padding-bottom: 50px;
   font-size: 1.3rem;
+  display: none;
 }
 
 .card__tags {

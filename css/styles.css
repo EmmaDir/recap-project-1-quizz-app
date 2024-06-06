@@ -33,3 +33,7 @@ a {
   background: black;
   color: white;
 }
+
+.card__answer--show {
+  display: flex;
+}
