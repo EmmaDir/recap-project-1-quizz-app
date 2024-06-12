@@ -1,37 +1,66 @@
-// Show answer button
-
-// const answerButton = document.querySelector('[data-js="button"]');
-// const cardAnswer = document.querySelector('[data-js="answer"]');
-
-// answerButton.addEventListener("click", () => {
-//   cardAnswer.classList.toggle("card__answer--show");
-// });
+// answer button
+// 1
 const answerButton1 = document.querySelector('[data-js="button1"]');
 const cardAnswer1 = document.querySelector('[data-js="answer1"]');
 
+answerButton1.style.marginBottom = "50px";
+
 answerButton1.addEventListener("click", () => {
-  cardAnswer1.classList.toggle("card__answer--show");
+  cardAnswer1.classList.toggle("hidden");
+
+  answerButton1.innerText =
+    answerButton1.innerText === "Show Answer" ? "Hide Answer" : "Show Answer";
+
+  answerButton1.style.marginBottom =
+    answerButton1.style.marginBottom === "0px" ? "50px" : "0px";
 });
 
+// 2
 const answerButton2 = document.querySelector('[data-js="button2"]');
 const cardAnswer2 = document.querySelector('[data-js="answer2"]');
 
+answerButton2.style.marginBottom = "50px";
+
 answerButton2.addEventListener("click", () => {
-  cardAnswer2.classList.toggle("card__answer--show");
+  cardAnswer2.classList.toggle("hidden");
+
+  answerButton2.innerText =
+    answerButton2.innerText === "Show Answer" ? "Hide Answer" : "Show Answer";
+
+  answerButton2.style.marginBottom =
+    answerButton2.style.marginBottom === "0px" ? "50px" : "0px";
 });
 
+// 3
 const answerButton3 = document.querySelector('[data-js="button3"]');
 const cardAnswer3 = document.querySelector('[data-js="answer3"]');
 
+answerButton3.style.marginBottom = "50px";
+
 answerButton3.addEventListener("click", () => {
-  cardAnswer3.classList.toggle("card__answer--show");
+  cardAnswer3.classList.toggle("hidden");
+
+  answerButton3.innerText =
+    answerButton3.innerText === "Show Answer" ? "Hide Answer" : "Show Answer";
+
+  answerButton3.style.marginBottom =
+    answerButton3.style.marginBottom === "0px" ? "50px" : "0px";
 });
 
+// 4
 const answerButton4 = document.querySelector('[data-js="button4"]');
 const cardAnswer4 = document.querySelector('[data-js="answer4"]');
 
+answerButton4.style.marginBottom = "50px";
+
 answerButton4.addEventListener("click", () => {
-  cardAnswer4.classList.toggle("card__answer--show");
+  cardAnswer4.classList.toggle("hidden");
+
+  answerButton4.innerText =
+    answerButton4.innerText === "Show Answer" ? "Hide Answer" : "Show Answer";
+
+  answerButton4.style.marginBottom =
+    answerButton4.style.marginBottom === "0px" ? "50px" : "0px";
 });
 
 // bookmark toggle
