@@ -1,0 +1,40 @@
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.form__your-question,
+.form__your-answer,
+.form__tag-label {
+  line-height: 2rem;
+  padding-top: 15px;
+}
+
+.form__textarea {
+  height: 75px;
+  /* width: 300px; */
+}
+
+.form__tag {
+  height: 40px;
+  /* width: 300px; */
+}
+
+.form__button {
+  background-color: orange;
+  height: 50px;
+  width: 170px;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 1rem;
+  display: grid;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.form__button:hover {
+  background-color: darkorange;
+}

@@ -5,6 +5,7 @@
   height: 65px;
   background-color: #473c8b;
   width: 100%;
+  z-index: 1;
 }
 
 .header__title {
