@@ -1,6 +1,15 @@
-// new cards
 const form = document.querySelector('[data-js="form"]');
 
+const charactersLeft1 = document.querySelector('[data-js="characters-left1"]');
+const charactersLeft2 = document.querySelector('[data-js="characters-left2"]');
+
+// characters left
+form.addEventListener("input", () => {
+  charactersLeft1.innerText = 150 - question.value.length;
+  charactersLeft2.innerText = 150 - answer.value.length;
+});
+
+// new cards
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 

@@ -38,3 +38,10 @@
 .form__button:hover {
   background-color: darkorange;
 }
+
+.form__characters-left {
+  color: grey;
+  text-align: end;
+  line-height: 0.5rem;
+  font-size: 0.9rem;
+}

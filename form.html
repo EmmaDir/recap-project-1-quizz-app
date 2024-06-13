@@ -26,9 +26,28 @@
             name="question"
             id="question"
             class="form__textarea"
+            maxlength="150"
+            data-js="question1"
           ></textarea>
+          <p class="form__characters-left">
+            <span class="form__characters-left" data-js="characters-left1"
+              >150</span
+            >
+            characters left
+          </p>
           <label for="answer" class="form__your-answer">Your answer:</label>
-          <textarea name="answer" id="answer" class="form__textarea"></textarea>
+          <textarea
+            name="answer"
+            id="answer"
+            class="form__textarea"
+            maxlength="150"
+          ></textarea>
+          <p class="form__characters-left">
+            <span class="form__characters-left" data-js="characters-left2"
+              >150</span
+            >
+            characters left
+          </p>
           <label for="tag" class="form__tag-label">Tag:</label>
           <input type="text" name="tag" id="tag" class="form__tag" />
         </fieldset>
