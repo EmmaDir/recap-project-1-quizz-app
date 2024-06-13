@@ -10,7 +10,9 @@
 .footer__navbar {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 3px;
+  align-items: flex-start;
+  /* padding-top: 3px; */
+  height: 100%;
 }
 
 .footer__link {
@@ -21,11 +23,13 @@
   display: inline-block;
   flex: 1;
   text-align: center;
+  height: 100%;
 }
 
-.footer__link:first-of-type {
+/* .footer__link:first-of-type {
   font-size: 50px;
-}
+  height: 100%;
+} */
 
 /* .footer__link:hover {
   background-color: #2a254a;
@@ -40,4 +44,5 @@
   flex: 1;
   text-align: center;
   background-color: #2a254a;
+  height: 100%;
 }

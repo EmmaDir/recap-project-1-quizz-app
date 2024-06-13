@@ -23,6 +23,8 @@ label {
 .body {
   background: linear-gradient(135deg, white, lavender);
   background-attachment: fixed;
+  width: 100%;
+  margin: 0;
 }
 
 .main {

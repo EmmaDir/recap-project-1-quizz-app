@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookmarks</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
@@ -18,49 +18,61 @@
     <main class="main">
       <section class="card">
         <h2 class="card__question">What property flips the axes in flexbox?</h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer" hidden>flex-direction</p>
+        <button class="card__button" data-js="button1">Show Answer</button>
+        <p class="card__answer" data-js="answer1">flex-direction</p>
         <div class="card__tags">
           <p class="card__hashtag">#html</p>
           <p class="card__hashtag">#flexbox</p>
           <p class="card__hashtag">#css</p>
         </div>
-        <i class="card__bookmark fa fa-fw fa-bookmark bookmark"></i>
+        <i
+          class="card__bookmark fa fa-fw fa-bookmark bookmark"
+          data-js="bookmark__button1"
+        ></i>
       </section>
       <section class="card">
         <h2 class="card__question">What changes the stacking order?</h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer" hidden>z-index</p>
+        <button class="card__button" data-js="button2">Show Answer</button>
+        <p class="card__answer" data-js="answer2">z-index</p>
         <div class="card__tags">
           <p class="card__hashtag">#html</p>
           <p class="card__hashtag">#position</p>
           <p class="card__hashtag">#css</p>
         </div>
-        <i class="fa fa-fw fa-bookmark bookmark card__bookmark"></i>
+        <i
+          class="fa fa-fw fa-bookmark bookmark card__bookmark"
+          data-js="bookmark__button2"
+        ></i>
       </section>
       <section class="card">
         <h2 class="card__question">
           What is the default display property for a span element?
         </h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer" hidden>inline</p>
+        <button class="card__button" data-js="button3">Show Answer</button>
+        <p class="card__answer" data-js="answer3">inline</p>
         <div class="card__tags">
           <p class="card__hashtag">#html</p>
           <p class="card__hashtag">#css</p>
         </div>
-        <i class="fa fa-fw fa-bookmark bookmark card__bookmark"></i>
+        <i
+          class="fa fa-fw fa-bookmark bookmark card__bookmark"
+          data-js="bookmark__button3"
+        ></i>
       </section>
       <section class="card">
         <h2 class="card__question">
           What is not an input type?<br />Email, name or week?
         </h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer" hidden>week</p>
+        <button class="card__button" data-js="button4">Show Answer</button>
+        <p class="card__answer" data-js="answer4">week</p>
         <div class="card__tags">
           <p class="card__hashtag">#html</p>
           <p class="card__hashtag">#css</p>
         </div>
-        <i class="fa fa-fw fa-bookmark bookmark card__bookmark"></i>
+        <i
+          class="fa fa-fw fa-bookmark bookmark card__bookmark"
+          data-js="bookmark__button4"
+        ></i>
       </section>
     </main>
     <footer class="footer">

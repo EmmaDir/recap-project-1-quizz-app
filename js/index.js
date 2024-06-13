@@ -98,9 +98,9 @@ bookmarkButton4.addEventListener("click", () => {
 
 // dark mode
 
-const bodyElement = document.querySelector('[data-js="body"]');
-const toggleButton = document.querySelector('[data-js="toggle-button"]');
+// const bodyElement = document.querySelector('[data-js="body"]');
+// const toggleButton = document.querySelector('[data-js="toggle-button"]');
 
-toggleButton.addEventListener("click", () => {
-  bodyElement.classList.toggle("dark");
-});
+// toggleButton.addEventListener("click", () => {
+//   bodyElement.classList.toggle("dark");
+// });
