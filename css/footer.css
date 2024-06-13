@@ -27,6 +27,17 @@
   font-size: 50px;
 }
 
-.footer__link:hover {
+/* .footer__link:hover {
+  background-color: #2a254a;
+} */
+
+.footer__link--active {
+  font-size: 45px;
+  color: white;
+  padding-left: auto;
+  padding-right: auto;
+  display: inline-block;
+  flex: 1;
+  text-align: center;
   background-color: #2a254a;
 }
